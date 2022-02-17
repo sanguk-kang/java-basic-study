@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
-public class forEach {
+public class ForEach {
     public static void main(String[] args) {
         // basic
         for (int i=0; i<=10; i++) {
