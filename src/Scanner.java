@@ -1,9 +1,7 @@
-import java.util.Scanner;
-
-public class Sccanner {
+public class Scanner {
     public static void main(String[] args) {
         System.out.println("basic test");
-        Scanner sc = new Scanner(System.in);
+        java.util.Scanner sc = new java.util.Scanner(System.in);
 
         // scanner
         System.out.println("문자열 입력하세요.");
