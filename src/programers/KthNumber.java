@@ -21,14 +21,14 @@ public class KthNumber {
         int[] answer = new int[commands.length];    // commands 길이만큼 초기화
 
         for (int i = 0; i < commands.length; i++) {
-            ArrayList<Integer> list = new ArrayList<>();    // 임시 ArrayList
+            ArrayList<Integer> temp = new ArrayList<>();    // 임시 ArrayList
             // command의 0번과 1번 배열 크기만큼 For문
             for (int j = commands[i][0] - 1; j < commands[i][1]; j++) {
-                list.add(array[j]);
+                temp.add(array[j]);
             }
-            Collections.sort(list); // ArrayList asc
+            Collections.sort(temp); // ArrayList asc
 
-            answer[i] = list.get(commands[i][2] - 1); // command의 3번 배열 크기 위치 add
+            answer[i] = temp.get(commands[i][2] - 1); // command의 3번 배열 크기 위치 add
         }
         return answer;
     }
