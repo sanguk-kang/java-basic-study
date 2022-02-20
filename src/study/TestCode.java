@@ -8,26 +8,26 @@ import java.util.Scanner;
 public class TestCode {
     public static void main(String[] args) {
 
-        Point[] A = {new Point(1,1), new Point(2,2), new Point(3,3)}; // 원래 배열
-
-        Point[] B = A.clone(); // B : clone() 사용
-
-        Point[] C = new Point[A.length]; // C : arraycopy() 사용
-        System.arraycopy(A, 0, C, 0, A.length);
-
-        B[0] = new Point(999,999);
-        System.out.println("[얕은 복사] B 배열의 값 ("+B[0].x+"), A 배열의 값!("+A[0].x+")");
-
-        C[0] = new Point(777,777);
-        System.out.println("[얕은 복사] C 배열의 값 ("+C[0].x+"), A 배열의 값!("+A[0].x+")");
+        int[] array = new int[] {1, 5, 2, 6, 3, 7, 4};
+        int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
+        int[] test = solution(array, commands);
 
     }
 
-    static class Point{ // 좌표계 점 객체 (x,y)
-        int x, y;
-        public Point(int x,int y){
-            this.x = x;
-            this.y = y;
+    private static int[] solution(int[] array, int[][] commands) {
+        int[] answer = new int[commands.length];
+
+        for (int i=0;i<commands.length;i++) {
+            ArrayList<Integer> list = new ArrayList<>();
+            System.out.println(commands[i][0]);
+            for (int j=commands[i][0]-1;j<commands[i][1];j++) {
+                list.add(array[j]);
+            }
+            Collections.sort(list);
+
+            answer[i] = list.get(commands[i][2]-1);
         }
+        System.out.println("result: " + Arrays.toString(answer));
+        return answer;
     }
 }
