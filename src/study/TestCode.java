@@ -28,6 +28,7 @@ public class TestCode {
             answer[i] = list.get(commands[i][2]-1);
         }
         System.out.println("result: " + Arrays.toString(answer));
+
         return answer;
     }
 }
