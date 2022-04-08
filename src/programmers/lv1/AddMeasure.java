@@ -35,10 +35,8 @@ public class AddMeasure {
      */
     private static int setNumber(int num, int cnt) {
         if (cnt % 2 == 0) {
-            // 양수
             return num * 1;
         } else {
-            // 음수
             return num * -1;
         }
     }
