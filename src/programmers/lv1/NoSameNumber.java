@@ -2,8 +2,10 @@ package programmers.lv1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.stream.Collectors;
 
+/**
+ * 같은 숫자는 싫어
+ */
 public class NoSameNumber {
     public static void main(String[] args) {
 

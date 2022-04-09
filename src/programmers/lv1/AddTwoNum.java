@@ -2,6 +2,9 @@ package programmers.lv1;
 
 import java.util.*;
 
+/**
+ * 두개 뽑아서 더하기
+ */
 public class AddTwoNum {
 
     public static void main(String[] args) {

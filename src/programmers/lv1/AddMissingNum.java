@@ -3,6 +3,9 @@ package programmers.lv1;
 import java.util.ArrayList;
 import java.util.stream.IntStream;
 
+/**
+ * 없는 숫자 더하기
+ */
 public class AddMissingNum {
     public static void main(String[] args) {
 

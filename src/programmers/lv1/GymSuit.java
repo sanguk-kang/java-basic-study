@@ -2,6 +2,9 @@ package programmers.lv1;
 
 import java.util.Arrays;
 
+/**
+ * 체육복
+ */
 public class GymSuit {
     public static void main(String[] args) {
 //        int n = 5;

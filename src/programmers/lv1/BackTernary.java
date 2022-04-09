@@ -1,5 +1,8 @@
 package programmers.lv1;
 
+/**
+ * 3진법 뒤집기
+ */
 public class BackTernary {
 
     public static void main(String[] args) {

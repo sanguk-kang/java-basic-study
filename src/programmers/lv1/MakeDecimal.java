@@ -1,5 +1,8 @@
 package programmers.lv1;
 
+/**
+ * 소수 만들기
+ */
 public class MakeDecimal {
     public static void main(String[] args) {
 

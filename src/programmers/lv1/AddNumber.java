@@ -2,6 +2,9 @@ package programmers.lv1;
 
 import java.util.ArrayList;
 
+/**
+ * 음양 더하기
+ */
 public class AddNumber {
 
     public static void main(String[] args) {

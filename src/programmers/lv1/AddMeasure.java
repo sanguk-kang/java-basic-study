@@ -2,6 +2,10 @@ package programmers.lv1;
 
 import java.util.ArrayList;
 
+
+/**
+ * 약수의 개수와 덧셈
+ */
 public class AddMeasure {
     public static void main(String[] args) {
 //        int left = 13;
