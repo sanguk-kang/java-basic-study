@@ -2,6 +2,9 @@ package programmers.sort;
 
 import java.util.*;
 
+/**
+ * 가장 큰 수
+ */
 public class BigNumber {
     public static void main(String[] args) {
         int[] array = new int[]{3, 30, 34, 5, 9};

@@ -2,8 +2,10 @@ package programmers.stackqueue;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.stream.Stream;
 
+/**
+ * 기능개발
+ */
 public class FnDevelopment {
     public static void main(String[] args) {
 

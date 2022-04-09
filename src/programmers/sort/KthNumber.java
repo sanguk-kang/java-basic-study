@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
+/**
+ * K번째 수
+ */
 public class KthNumber {
     public static void main(String[] args) {
         int[] array = new int[]{1, 5, 2, 6, 3, 7, 4};

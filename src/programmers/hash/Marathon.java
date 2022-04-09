@@ -2,6 +2,9 @@ package programmers.hash;
 
 import java.util.*;
 
+/**
+ * 완주하지 못한 선수
+ */
 public class Marathon {
     public static void main(String[] args) {
 
